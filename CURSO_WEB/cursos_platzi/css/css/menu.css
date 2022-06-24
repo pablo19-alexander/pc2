@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: aqua;
+    font-family: serif;
+    margin-bottom: 10px;
+}
+
+#page-header {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+    font-size: 18px;
+}
+
+#main-nav {
+    margin-top: 10px;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#main-nav li {
+    display: inline-block;
+}
+
+#main-nav a {
+    color: #fff;
+    background-color: rgb(84, 134, 118);
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+#main-nav .blog {
+    background-color: red;
+}

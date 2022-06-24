@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <!-- util para listas cortas-->
+        <select name="cursos" id="">
+            <option value="javascript">javascript</option>
+            <option value="html">html</option>
+            <option value="css">css</option>
+            <option value="WebStandards">web standards</option>
+        </select>
+        <!-- una mejor forma de hacerlo-->
+
+        <label for="cursos">
+            <span>¿que curso estas buscando?</span>
+        <input list="cursos">
+        <datalist id="cursos">
+            <option value="javascript">javascript</option>
+            <option value="html">html</option>
+            <option value="css">css</option>
+            <option value="WebStandards">web standards</option>
+        </datalist>
+        </label>
+    </main>
+</body>
+
+</html>

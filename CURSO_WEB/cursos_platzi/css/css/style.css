@@ -1,0 +1,13 @@
+* {
+    /* me quita el scroll */
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    width: 100%;
+    height: 929px;
+    border: 10px solid grey;
+    padding: 20px 35px;
+}
